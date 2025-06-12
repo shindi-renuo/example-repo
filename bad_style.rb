@@ -20,6 +20,3 @@ class badStyle
         return false
     end
 end
-git remote add origin git@github.com:shindi-renuo/example-repo.git
-git branch -M main
-git push -u origin main
