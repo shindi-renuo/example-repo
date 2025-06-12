@@ -19,6 +19,6 @@ jobs:
       - name: Fix linting errors with Lintic
         uses: shindi-renuo/lintic@main
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          ollama-model: qwen2.5-coder:1.5b
-          ollama-uri: ${{ secrets.OLLAMA_URI }}
+          github-token: ${{ secrets.LINTIC_GITHUB_TOKEN }}
+          ollama-model: ${{ secrets.LINTIC_OLLAMA_MODEL }}
+          ollama-uri: ${{ secrets.LINTIC_OLLAMA_URI }}
