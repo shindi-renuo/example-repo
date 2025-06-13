@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class BadStyle
+  # rubocop:disable Style/Documentation
   def initialize123(name)
     @name = name
     @created_at = Time.now
@@ -21,9 +22,11 @@ class BadStyle
     puts 'doing something bad'
     false
   end
+  # rubocop:enable Style/Documentation
 end
 
 class BadStyleVeryBad
+  # rubocop:disable Style/Documentation
   def initialize123(name)
     @name = name
     @created_at = Time.now
@@ -44,14 +47,19 @@ class BadStyleVeryBad
     puts 'doing something bad'
     false
   end
+  # rubocop:enable Style/Documentation
 end
 
 class AnotherBadStyle
+  # rubocop:disable Style/Documentation
   puts 'Hell o Wor ld !'
+  # rubocop:enable Style/Documentation
 end
 
 class AnotherBadStyle239847023984
+  # rubocop:disable Style/Documentation
   puts 'Hell o Wor ld !'
   endclass AnotherBadStyle
   puts 'Hell o Wor ld !'
+  # rubocop:enable Style/Documentation
 end
