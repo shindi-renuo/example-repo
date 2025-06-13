@@ -47,9 +47,3 @@ end
 class ANOTHERBADSTYLE
 puts "Hell o Wor ld !"
 end
-class ANOTHERBADSTYLE
-puts "Hell o Wor ld !"
-end
-class ANOTHERBADSTYLE
-puts "Hell o Wor ld !"
-end
