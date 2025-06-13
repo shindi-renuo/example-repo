@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# BadStyle class
 class BadStyle
   def initialize123(name)
     @name = name
@@ -23,6 +24,7 @@ class BadStyle
   end
 end
 
+# BadStyleVeryBad class
 class BadStyleVeryBad
   def initialize123(name)
     @name = name
@@ -46,10 +48,12 @@ class BadStyleVeryBad
   end
 end
 
+# AnotherBadStyle class
 class AnotherBadStyle
   puts 'Hell o Wor ld !'
 end
 
+# AnotherBadStyle239847023984 class
 class AnotherBadStyle239847023984
   puts 'Hell o Wor ld !'
   endclass AnotherBadStyle
