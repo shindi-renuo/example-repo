@@ -43,3 +43,7 @@ class badStyle_VERY_bad
         return false
     end
 end
+
+class ANOTHERBADSTYLE
+puts "Hell o Wor ld !"
+end
