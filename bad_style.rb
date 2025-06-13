@@ -56,6 +56,4 @@ end
 # AnotherBadStyle239847023984 class
 class AnotherBadStyle239847023984
   puts 'Hell o Wor ld !'
-  endclass AnotherBadStyle
-  puts 'Hell o Wor ld !'
 end
