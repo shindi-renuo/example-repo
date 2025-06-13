@@ -22,3 +22,4 @@ jobs:
           github-token: ${{ secrets.LINTIC_GITHUB_TOKEN }}
           ollama-model: ${{ secrets.LINTIC_OLLAMA_MODEL }}
           ollama-uri: ${{ secrets.LINTIC_OLLAMA_URI }}
+          openai-api-key: ${{ secrets.LINTIC_OPENAI_API_KEY }}
