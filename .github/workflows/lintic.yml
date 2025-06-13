@@ -20,5 +20,6 @@ jobs:
         uses: shindi-renuo/lintic@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          ollama-model: qwen2.5-coder:1.5b
+          ollama-model: ${{ secrets.OLLAMA_MODEL }}
           ollama-uri: ${{ secrets.OLLAMA_URI }}
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
